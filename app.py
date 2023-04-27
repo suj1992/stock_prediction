@@ -63,7 +63,7 @@ if uploaded_file is not None:
     fig_forecast_close = m.plot(forecast, xlabel='Date', ylabel='Forecast Vs Close')
     st.markdown(':green[**Prediction Vs Real Close Value**]')
     st.pyplot(fig_forecast_close)
-    st.markdown(':green[**Trend an Weekly**]')
+    st.markdown(':green[**Trend and Weekly**]')
     fig_trend_weekly = m.plot_components(forecast)
     st.pyplot(fig_trend_weekly)
     
