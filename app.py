@@ -72,7 +72,7 @@ if uploaded_file is not None:
     df_forecast = df_forecast.rename(columns = {'ds':'Date', 'yhat':'Predicted Value'})
     df_forecast.index.freq = 'D'
     df_forecast_download = df_forecast[-30:]
-    st.markdown(':green[**Future 30 Days Data**]')
+    st.markdown(':green[**Future 30 Days Forecasting Price**]')
     st.write(df_forecast_download)
     
     # Download The Predicted File in CSV format
