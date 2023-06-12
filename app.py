@@ -5,7 +5,7 @@ from prophet import Prophet
 from prophet.plot import plot_plotly
 from prophet.plot import plot, plot_components
 import matplotlib.dates as mdates
-from holidays.financial import Entity
+
 
 
 
